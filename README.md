@@ -6,4 +6,4 @@ Abychom nemuseli používat backend, situaci si zjednodušíme tím, že budeme 
 
 Návrh HTML a CSS máte k dispozici [zde](https://github.com/Czechitas-podklady-WEB/cvrlikani-zadani). Můžete jej přesně následovat, nebo se jím pouze inspirovat.
 
-![Výsledná aplikace](http://url/to/img.png)
+![Výsledná aplikace](https://raw.githubusercontent.com/Czechitas-podklady-WEB/cvrlikani-zadani/main/preview.jpg)
