@@ -1,30 +1,9 @@
-# React + TypeScript + Vite
+# Cvrlikání
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Úkolem tohoto cvičení je vytvořit velmi jednoduchou aplikaci napodobující Twitter. Uživatel do textového políčka zadá krátký text a ten se poté objeví v seznamu zveřejněnýcn zpráv.
 
-Currently, two official plugins are available:
+Abychom nemuseli používat backend, situaci si zjednodušíme tím, že budeme zobrazovat pouze zprávy zadané jedním uživatelem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Návrh HTML a CSS máte k dispozici [zde](https://github.com/Czechitas-podklady-WEB/cvrlikani-zadani). Můžete jej přesně následovat, nebo se jím pouze inspirovat.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+![Výsledná aplikace](http://url/to/img.png)
